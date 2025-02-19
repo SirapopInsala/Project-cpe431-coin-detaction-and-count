@@ -122,7 +122,7 @@ object_detection_flask/
 
 ---
 
-## **5️⃣ Run the Flask Server**  
+## **3️⃣ Run the Flask Server**  
 ```sh
 python app.py
 ```
