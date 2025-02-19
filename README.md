@@ -1,15 +1,15 @@
-###🪙 **Project CPE431 - Coin Detection and Counting**
+### 🪙 **Project CPE431 - Coin Detection and Counting**
 
-###🔍 **Project Overview**
+### 🔍 **Project Overview**
 This project is a system for detecting and counting coins using Computer Vision and Machine Learning. It processes coin images to identify their type and count the number of coins detected.
 
-###🚀 **Key Features**
+### 🚀 **Key Features**
 📸 Coin Detection from images
 🔢 Coin Counting for different types
 🎯 Coin Classification based on size and features
 📊 Real-Time Data Display of detected coins
 
-###🛠️ **Technologies Used**
+### 🛠️ **Technologies Used**
 Python 🐍
 OpenCV 🎥 (for image processing)
 TensorFlow/PyTorch 🧠 (for Machine Learning)
