@@ -1,0 +1,19 @@
+item {
+    id: 1
+    name: "10 Bath"
+}
+
+item {
+    id: 2
+    name: "5 Bath"
+}
+
+item {
+    id: 3
+    name: "2 Bath"
+}
+
+item {
+    id: 4
+    name: "1 Bath"
+}

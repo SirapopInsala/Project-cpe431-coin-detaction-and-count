@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection</title>
+    <!-- Link to Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans antialiased">
+    <!-- Main container -->
+    <div class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-teal-400">
+        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+            <h1 class="text-3xl font-semibold text-center text-gray-800 mb-6">Upload an Image for Object Detection</h1>
+
+            <!-- Upload form -->
+            <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data">
+                <div class="mb-4">
+                    <label for="file" class="block text-lg font-medium text-gray-700">Choose an Image</label>
+                    <input type="file" name="file" accept="image/*,video/*" class="mt-2 w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                </div>
+
+                <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-200">
+                    Upload
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>coin-32-_jpg.rf.231f099cd3f853a238ad8f9a6b86b98a.jpg</filename>
+	<path>coin-32-_jpg.rf.231f099cd3f853a238ad8f9a6b86b98a.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>5 Bath</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>70</xmin>
+			<xmax>641</xmax>
+			<ymin>64</ymin>
+			<ymax>640</ymax>
+		</bndbox>
+	</object>
+</annotation>

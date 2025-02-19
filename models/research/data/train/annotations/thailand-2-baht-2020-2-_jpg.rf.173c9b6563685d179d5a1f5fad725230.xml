@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>thailand-2-baht-2020-2-_jpg.rf.173c9b6563685d179d5a1f5fad725230.jpg</filename>
+	<path>thailand-2-baht-2020-2-_jpg.rf.173c9b6563685d179d5a1f5fad725230.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>2 Bath</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>69</xmin>
+			<xmax>615</xmax>
+			<ymin>58</ymin>
+			<ymax>591</ymax>
+		</bndbox>
+	</object>
+</annotation>

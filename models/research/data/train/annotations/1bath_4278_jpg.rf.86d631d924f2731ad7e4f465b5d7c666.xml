@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>1bath_4278_jpg.rf.86d631d924f2731ad7e4f465b5d7c666.jpg</filename>
+	<path>1bath_4278_jpg.rf.86d631d924f2731ad7e4f465b5d7c666.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>1 Bath</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>249</xmin>
+			<xmax>403</xmax>
+			<ymin>236</ymin>
+			<ymax>356</ymax>
+		</bndbox>
+	</object>
+</annotation>

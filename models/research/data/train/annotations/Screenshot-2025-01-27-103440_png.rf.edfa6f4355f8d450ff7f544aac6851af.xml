@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Screenshot-2025-01-27-103440_png.rf.edfa6f4355f8d450ff7f544aac6851af.jpg</filename>
+	<path>Screenshot-2025-01-27-103440_png.rf.edfa6f4355f8d450ff7f544aac6851af.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>10 Bath</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>636</xmax>
+			<ymin>3</ymin>
+			<ymax>636</ymax>
+		</bndbox>
+	</object>
+</annotation>

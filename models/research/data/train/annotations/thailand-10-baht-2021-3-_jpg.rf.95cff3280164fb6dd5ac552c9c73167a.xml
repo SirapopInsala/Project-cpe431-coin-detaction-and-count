@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>thailand-10-baht-2021-3-_jpg.rf.95cff3280164fb6dd5ac552c9c73167a.jpg</filename>
+	<path>thailand-10-baht-2021-3-_jpg.rf.95cff3280164fb6dd5ac552c9c73167a.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>10 Bath</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>24</xmin>
+			<xmax>627</xmax>
+			<ymin>33</ymin>
+			<ymax>629</ymax>
+		</bndbox>
+	</object>
+</annotation>
