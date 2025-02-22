@@ -15,7 +15,18 @@
 
             <!-- Result image -->
             <div class="flex justify-center mb-6">
-                <img src="{{ result_image }}" alt="Result Image" class="max-w-full rounded-lg shadow-lg">
+                <img src="{{ result_image }}" alt="Detected Image" class="max-w-full rounded-lg shadow-lg">
+            </div>
+
+            <!-- Display Coin Counts and Total Value -->
+            <div class="text-center mb-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Coin Counts and Total Value</h2>
+                <ul class="text-lg text-gray-700">
+                    {% for coin, count in coin_counts.items() %}
+                        <li><span class="font-medium text-gray-800">เหรียญ {{ coin_values[coin] }} บาท มีจำนวน</span> {{ count }} เหรียญ</li>
+                    {% endfor %}
+                </ul>
+                <h3 class="text-2xl font-semibold text-gray-800 mt-4">💰 มูลค่ารวม {{ total_value }} บาท</h3>
             </div>
 
             <!-- Link to upload a new image -->

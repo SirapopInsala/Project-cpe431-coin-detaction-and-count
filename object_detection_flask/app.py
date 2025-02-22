@@ -25,6 +25,13 @@ def allowed_file(filename):
 def index():
     return render_template("index.html")
 
+COIN_VALUES = {
+    1: 10,   # เหรียญ 10 บาท
+    2: 5,    # เหรียญ 5 บาท
+    3: 2,    # เหรียญ 2 บาท
+    4: 1     # เหรียญ 1 บาท
+}
+
 # อัปโหลดและประมวลผลภาพ
 @app.route("/upload", methods=["POST"])
 def upload_file():
@@ -35,19 +42,19 @@ def upload_file():
     if file.filename == "" or not allowed_file(file.filename):
         return redirect(request.url)
 
-    # บันทึกไฟล์ที่อัปโหลด
+    # Save the uploaded file
     filename = secure_filename(file.filename)
     filepath = os.path.join(app.config["UPLOAD_FOLDER"], filename)
     file.save(filepath)
 
-    # ตรวจจับวัตถุและบันทึกผลลัพธ์
-    result_path = detect_objects(filepath, filename)
+    # Detect objects and save the result
+    result_path, coin_counts, total_value = detect_objects(filepath, filename, app.config["RESULT_FOLDER"])
 
-    # สร้าง URL สำหรับผลลัพธ์
+    # Ensure path uses forward slashes for URLs
     result_image = url_for('static', filename=f'results/{filename}')
 
-    # ส่งผลลัพธ์ไปยัง result.html
-    return render_template("result.html", result_image=result_image)
+    # Send results to result.html
+    return render_template("result.html", result_image=result_image, coin_counts=coin_counts, total_value=total_value, coin_values=COIN_VALUES)
 
 if __name__ == "__main__":
     app.run(debug=True)
